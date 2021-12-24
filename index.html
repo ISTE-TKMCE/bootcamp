@@ -9,41 +9,53 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="assets/css/nooha.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-    <title>wEbEd ISTE</title>
+    <title>WEBED ISTE</title>
   </head>
   <body>
+
+    
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"><img src="./assets/istelogo.png" height = "70"alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li> <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li> <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        
+        </ul>
+    
+      </div>
+    </nav>
     <div class="container-fluid">
 
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#"><img src="./assets/istelogo.png" height = "50"alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-              </ul>
-          
-            </div>
-          </nav>
       <div class="row mx-auto" id="first-row">
 
        
@@ -64,56 +76,50 @@
               2K21 <br />
               Register Now!
             </h3>
-            <br />
-            <button class="btn text-capitalize font-weight">
+            <button class="btn text-capitalize font-weight mx-auto text-center">
               event deadline
             </button>
+            <br />
+           
           </div>
         </div>
-        <div class="col-md-6 mx-auto" id = "box">
+        <div class="col-md-6 mx-auto  text-center" id = "box">
 
-
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <img src="./assets/html.png" class = "img-responsive img-fluid rounded-circle" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="./assets/css.png"  class = "img-responsive img-fluid rounded-circle"/>
-                  </div>
-               
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-
-              <!-- <div class="swiper mySwiper-2">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-                  </div>
-                </div>
-                <div class="swiper-pagination"></div>
-              </div> -->
+         <div class = "mx-auto w-100 py-4 px-2">
+           <h2 class = "mb-4 text-capitalize">registration ends in  </h2>
+          <p id="demo" class = "mx-auto"></p>
+      
+         </div>
+        
         </div>
+      </div>
+      <h4 class="heading-font text-capitalize mt-md-5 mb-md-5">---> What you learn</h4>
+
+      <div class="row mx-auto w-100" data-aos="fade-right" id = "stack-img-box">
+
+        <div class="col-md-2 mx-auto"data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"><img src="./assets/img/1.jpeg" class = "img-fluid img-responsive" alt=""></div>
+        <div class="col-md-2 mx-auto"data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"><img src="./assets/html.png" class = "img-fluid img-responsive" alt=""></div>
+        <div class="col-md-2 mx-auto"data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"><img src="./assets/html.png" class = "img-fluid img-responsive" alt=""></div>
+        <div class="col-md-2 mx-auto"data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"><img src="./assets/html.png" class = "img-fluid img-responsive" alt=""></div>
+        <div class="col-md-2 mx-auto"data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"><img src="./assets/html.png" class = "img-fluid img-responsive" alt=""></div>
+       
+
       </div>
       <h4 class="heading-font text-capitalize mt-md-5 mb-md-5">---> here we are</h4>
 <br>
       <div class="row mx-auto w-100 mb-4" id = "video-row">
       
-        <div class="col-md-3 mx-auto">
-            <video autoplay muted loop id="myVideo"class = "embed-responsive" >
-                <source src="./assets/intro.mp4" class = "embed-responsive-item" type="video/mp4">
-              </video>
-        </div>
+      
         <div class="col-md-9 mx-auto" id = "contents">
 
             <div class="row">
@@ -153,6 +159,16 @@
                   </div>
         </div>
       
+    </div>
+
+    <div class="row mx-auto">
+
+
+      <div class="col-md-3 mx-auto">
+        <video autoplay muted loop id="myVideo"class = "embed-responsive" >
+            <source src="./assets/intro.mp4" class = "embed-responsive-item" type="video/mp4">
+          </video>
+    </div>
     </div>
       <h4 class="heading-font text-capitalize mt-md-5 mb-md-5">---> event calender</h4>
     
@@ -479,6 +495,29 @@
 
       
       </div>
+      <h4 class="heading-font text-capitalize mt-md-5 mb-md-5">---> contact mentors</h4>
+
+      <div class="mentors">
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="name"><i class="fas fa-signature"></i> KARTHIK SUNIL</div>
+              <div class="tuition"><i class="fab fa-servicestack"></i> introduction</div>
+              <div class="contact-mentor"><span><i class="fab fa-linkedin-in"></i></span><span><i class="fas fa-mobile-alt"></i></span></div>
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
     
       <h4 class="heading-font text-capitalize mt-md-5 mb-md-5">---> Additional resources</h4>
     
@@ -518,43 +557,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
     <!-- <script src="./assets/js/particle.js"></script> -->
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+<script src = "./assets/js/timer.js"></script>
     <script src="./assets/js/script.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".mySwiper", {
-        effect: "cube",
-        grabCursor: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        cubeEffect: {
-          shadow: true,
-          slideShadows: true,
-          shadowOffset: 20,
-          shadowScale: 0.94,
-       
-        },
-     
+ 
+ var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        // pagination: {
+        //   el: ".swiper-pagination",
+        //   clickable: true,
+        // },
       });
-      var swiper2 = new Swiper(".mySwiper-2", {
-        effect: "cube",
-        grabCursor: true,
-        autoplay: {
-          delay: 2,
-          disableOnInteraction: false,
-        },
-        cubeEffect: {
-          shadow: true,
-          slideShadows: true,
-          shadowOffset: 20,
-          shadowScale: 0.94,
-       
-        },
-      });
+
     </script>
   </body>
 </html>
