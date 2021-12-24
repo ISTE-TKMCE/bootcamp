@@ -278,6 +278,9 @@ border:1px outset var(--clr);
   .footer h6{
       color:var(--clr);
   }
+  .bg-success{
+      background-color:var(--clr);
+  }
 
   @media screen and (max-width:500px){
       #video-row{
