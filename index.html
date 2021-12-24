@@ -29,13 +29,13 @@
 
     
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#"><img src="./assets/istelogo.png" height = "70"alt=""></a>
+      <a class="navbar-brand" href="#"><img class = ""src="./assets/istelogo.png" height = "70"alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
       </button>
     
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
@@ -55,10 +55,14 @@
       </div>
     </nav>
     <div class="container-fluid">
-
+      <div class="myVideorow">
+        <video autoplay muted loop id="myVideo"class = "embed-responsive" >
+          <source src="./assets/intro.mp4" class = "embed-responsive-item" type="video/mp4">
+        </video>
+       </div>
       <div class="row mx-auto" id="first-row">
 
-       
+     
           
         
         <div
@@ -69,10 +73,11 @@
             justify-content-center
             align-items-center
           "
+          id = "first-col"
         >
-          <div class="heading-font font-weight-bolder mx-auto my-auto">
+          <div class="font-weight-bolder mx-auto my-auto">
             <h3>
-             <span class = "webed"> W<sub>E</sub>B<sup>E</sup>D</span> <br />
+             <span class = "webed heading-font"> W<sub>E</sub>B<sup>E</sup>D</span> <br />
               2K21 <br />
               Register Now!
             </h3>
@@ -83,39 +88,43 @@
            
           </div>
         </div>
-        <div class="col-md-6 mx-auto  text-center" id = "box">
 
-         <div class = "mx-auto w-100 py-4 px-2">
-           <h2 class = "mb-4 text-capitalize">registration ends in  </h2>
-          <p id="demo" class = "mx-auto"></p>
-      
+
+</div>
+      <div class="row">
+        <div class="col-md-12 mx-auto  text-center" id = "box">
+
+          <div class = "mx-auto w-100 py-4 px-2 heading-font">
+            <h2 class = "mb-4 text-capitalize">registration ends in  </h2>
+           <p id="demo" class = "mx-auto"></p>
+       
+          </div>
+         
          </div>
-        
-        </div>
       </div>
-      <h4 class="heading-font text-capitalize mt-md-5 mb-md-5">---> What you learn</h4>
+      <h4 class="text-capitalize mt-md-5 mb-md-5">---> What you will learn</h4>
 
       <div class="row mx-auto w-100" data-aos="fade-right" id = "stack-img-box">
 
-        <div class="col-md-2 mx-auto"data-aos="flip-left"
+        <div class="col-5 col-md-2 mx-auto"data-aos="zoom-in"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="3000"><img src="./assets/img/1.jpeg" class = "img-fluid img-responsive" alt=""></div>
-        <div class="col-md-2 mx-auto"data-aos="flip-left"
+        <div class="col-5 col-md-2 mx-auto"data-aos="zoom-out"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="3000"><img src="./assets/html.png" class = "img-fluid img-responsive" alt=""></div>
-        <div class="col-md-2 mx-auto"data-aos="flip-left"
+        <div class="col-5 col-md-2 mx-auto"data-aos="zoom-in"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="3000"><img src="./assets/html.png" class = "img-fluid img-responsive" alt=""></div>
-        <div class="col-md-2 mx-auto"data-aos="flip-left"
+        <div class="col-5 col-md-2 mx-auto"data-aos="zoom-out"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="3000"><img src="./assets/html.png" class = "img-fluid img-responsive" alt=""></div>
-        <div class="col-md-2 mx-auto"data-aos="flip-left"
+        <div class="col-5 col-md-2 mx-auto"data-aos="zoom-in"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="3000"><img src="./assets/html.png" class = "img-fluid img-responsive" alt=""></div>
        
 
       </div>
-      <h4 class="heading-font text-capitalize mt-md-5 mb-md-5">---> here we are</h4>
+      <h4 class="text-capitalize mt-md-5 mb-md-5">---> here we are</h4>
 <br>
       <div class="row mx-auto w-100 mb-4" id = "video-row">
       
@@ -161,16 +170,8 @@
       
     </div>
 
-    <div class="row mx-auto">
-
-
-      <div class="col-md-3 mx-auto">
-        <video autoplay muted loop id="myVideo"class = "embed-responsive" >
-            <source src="./assets/intro.mp4" class = "embed-responsive-item" type="video/mp4">
-          </video>
     </div>
-    </div>
-      <h4 class="heading-font text-capitalize mt-md-5 mb-md-5">---> event calender</h4>
+      <h4 class="text-capitalize mt-md-5 mb-md-5">---> event calender</h4>
     
 
       <div class="row mx-auto">
@@ -178,10 +179,10 @@
           <div class="card">
             <div class="card-header text-uppercase">day 1</div>
             <div class="card-body row my-auto">
-              <div class="col-md-2 col-3"><span class = "date">24</span><br />dec</div>
+              <div class="col-md-2 col-3"><span class = "date">26</span><br />dec</div>
               <div class="col-md-7 col-6 my-auto">
-                <h5 class="card-text heading-font my-auto">
-                 installations
+                <h5 class="card-text my-auto">
+                 installations,html with basic tags and Git basics
                 </h5>
               </div>
               <div class="col-md-3 col-3 my-auto">
@@ -207,19 +208,17 @@
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>vs code installation</td>
+                      <td>vs code</td>
                       <td>
-                        link for the installation of the vscode is provided and
-                        lorem
+                        link will be provided later
                       </td>
                     </tr>
 
                     <tr>
-                        <td>1</td>
-                        <td>vs code installation</td>
+                        <td>2</td>
+                        <td>github</td>
                         <td>
-                          link for the installation of the vscode is provided and
-                          lorem
+link provided later
                         </td>
                       </tr>
                   </tbody>
@@ -230,12 +229,12 @@
           </div>
 
           <div class="card">
-            <div class="card-header text-uppercase">day 1</div>
+            <div class="card-header text-uppercase">day 2</div>
             <div class="card-body row my-auto">
-              <div class="col-md-2 col-3"><span class = "date">24</span><br />dec</div>
+              <div class="col-md-2 col-3"><span class = "date">27</span><br />dec</div>
               <div class="col-md-7 col-6 my-auto">
-                <h5 class="card-text heading-font my-auto">
-                 installations
+                <h5 class="card-text my-auto">
+                  html css javascript
                 </h5>
               </div>
               <div class="col-md-3 col-3 my-auto">
@@ -250,30 +249,7 @@
 
             <div class="showTable mx-auto my-auto">
               <div class="table-responsive mx-auto my-auto">
-                <table class="table table-bordered  mx-auto my-auto">
-                  <thead class="thead">
-                    <tr>
-                      <th>sl.no</th>
-                      <th>software</th>
-                      <th>link</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>vs code installation</td>
-                      <td>
-                        link for the installation of the vscode is provided and
-                        lorem
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tfoot>
-                    <tr>
-                      <th>#</th>
-                    </tr>
-                  </tfoot>
-                </table>
+
               </div>
             </div>
           </div>
@@ -287,12 +263,12 @@
       <div class="row mx-auto mt-md-3">
         <div class="card-deck w-100 mx-auto">
           <div class="card">
-            <div class="card-header text-uppercase">day 1</div>
+            <div class="card-header text-uppercase">day 3</div>
             <div class="card-body row my-auto">
-              <div class="col-md-2 col-3"><span class = "date">24</span><br />dec</div>
+              <div class="col-md-2 col-3"><span class = "date">28</span><br />dec</div>
               <div class="col-md-7 col-6 my-auto">
-                <h5 class="card-text heading-font my-auto">
-                 installations
+                <h5 class="card-text my-auto">
+                  bootstrap javascript
                 </h5>
               </div>
               <div class="col-md-3 col-3 my-auto">
@@ -307,41 +283,18 @@
 
             <div class="showTable mx-auto my-auto">
               <div class="table-responsive mx-auto my-auto">
-                <table class="table table-bordered  mx-auto my-auto">
-                  <thead class="thead">
-                    <tr>
-                      <th>sl.no</th>
-                      <th>software</th>
-                      <th>link</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>vs code installation</td>
-                      <td>
-                        link for the installation of the vscode is provided and
-                        lorem
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tfoot>
-                    <tr>
-                      <th>#</th>
-                    </tr>
-                  </tfoot>
-                </table>
+  
               </div>
             </div>
           </div>
 
           <div class="card">
-            <div class="card-header text-uppercase">day 1</div>
+            <div class="card-header text-uppercase">day 4</div>
             <div class="card-body row my-auto">
-              <div class="col-md-2 col-3"><span class = "date">24</span><br />dec</div>
+              <div class="col-md-2 col-3"><span class = "date">29</span><br />dec</div>
               <div class="col-md-7 col-6 my-auto">
-                <h5 class="card-text heading-font my-auto">
-                 installations
+                <h5 class="card-text my-auto">
+                  Figma
                 </h5>
               </div>
               <div class="col-md-3 col-3 my-auto">
@@ -356,30 +309,7 @@
 
             <div class="showTable mx-auto my-auto">
               <div class="table-responsive mx-auto my-auto">
-                <table class="table table-bordered  mx-auto my-auto">
-                  <thead class="thead">
-                    <tr>
-                      <th>sl.no</th>
-                      <th>software</th>
-                      <th>link</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>vs code installation</td>
-                      <td>
-                        link for the installation of the vscode is provided and
-                        lorem
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tfoot>
-                    <tr>
-                      <th>#</th>
-                    </tr>
-                  </tfoot>
-                </table>
+
               </div>
             </div>
           </div>
@@ -393,12 +323,14 @@
       <div class="row mx-auto mt-md-3">
         <div class="card-deck w-100 mx-auto">
           <div class="card">
-            <div class="card-header text-uppercase">day 1</div>
+            <div class="card-header text-uppercase">day 5</div>
             <div class="card-body row my-auto">
-              <div class="col-md-2 col-3"><span class = "date">24</span><br />dec</div>
+              <div class="col-md-2 col-3"><span class = "date">30</span><br />dec</div>
               <div class="col-md-7 col-6 my-auto">
-                <h5 class="card-text heading-font my-auto">
-                 installations
+                <h5 class="card-text my-auto">
+                  CMS Static day1
+                  
+                  Static hosting
                 </h5>
               </div>
               <div class="col-md-3 col-3 my-auto">
@@ -413,41 +345,19 @@
 
             <div class="showTable mx-auto my-auto">
               <div class="table-responsive mx-auto my-auto">
-                <table class="table table-bordered  mx-auto my-auto">
-                  <thead class="thead">
-                    <tr>
-                      <th>sl.no</th>
-                      <th>software</th>
-                      <th>link</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>vs code installation</td>
-                      <td>
-                        link for the installation of the vscode is provided and
-                        lorem
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tfoot>
-                    <tr>
-                      <th>#</th>
-                    </tr>
-                  </tfoot>
-                </table>
+ 
               </div>
             </div>
           </div>
 
           <div class="card">
-            <div class="card-header text-uppercase">day 1</div>
+            <div class="card-header text-uppercase">day 6</div>
             <div class="card-body row my-auto">
-              <div class="col-md-2 col-3"><span class = "date">24</span><br />dec</div>
+              <div class="col-md-2 col-3"><span class = "date">31</span><br />dec</div>
               <div class="col-md-7 col-6 my-auto">
-                <h5 class="card-text heading-font my-auto">
-                 installations
+                <h5 class="card-text my-auto">
+                  Server Intro Node js
+                  
                 </h5>
               </div>
               <div class="col-md-3 col-3 my-auto">
@@ -462,40 +372,178 @@
 
             <div class="showTable mx-auto my-auto">
               <div class="table-responsive mx-auto my-auto">
-                <table class="table table-bordered  mx-auto my-auto">
-                  <thead class="thead">
-                    <tr>
-                      <th>sl.no</th>
-                      <th>software</th>
-                      <th>link</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>vs code installation</td>
-                      <td>
-                        link for the installation of the vscode is provided and
-                        lorem
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tfoot>
-                    <tr>
-                      <th>#</th>
-                    </tr>
-                  </tfoot>
-                </table>
+   
               </div>
             </div>
           </div>
+
+          
 
 
         </div>
 
       
       </div>
-      <h4 class="heading-font text-capitalize mt-md-5 mb-md-5">---> contact mentors</h4>
+
+      
+
+
+
+
+
+      <div class="row mx-auto mt-md-3">
+        <div class="card-deck w-100 mx-auto">
+          <div class="card">
+            <div class="card-header text-uppercase">day 7</div>
+            <div class="card-body row my-auto">
+              <div class="col-md-2 col-3"><span class = "date">1</span><br />dec</div>
+              <div class="col-md-7 col-6 my-auto">
+                <h5 class="card-text my-auto">
+               node js database
+                </h5>
+              </div>
+              <div class="col-md-3 col-3 my-auto">
+                <button
+                  class="btn"
+                  onclick="showTable(this)"
+                >
+                  <i class="fas fa-arrow-circle-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="showTable mx-auto my-auto">
+              <div class="table-responsive mx-auto my-auto">
+      
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header text-uppercase">day 8</div>
+            <div class="card-body row my-auto">
+              <div class="col-md-2 col-3"><span class = "date">2</span><br />dec</div>
+              <div class="col-md-7 col-6 my-auto">
+                <h5 class="card-text my-auto">
+                 node js
+                </h5>
+              </div>
+              <div class="col-md-3 col-3 my-auto">
+                <button
+                  class="btn"
+                  onclick="showTable(this)"
+                >
+                  <i class="fas fa-arrow-circle-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="showTable mx-auto my-auto">
+              <div class="table-responsive mx-auto my-auto">
+       
+              </div>
+            </div>
+          </div>
+
+          
+
+
+        </div>
+
+      
+      </div>
+
+
+      <div class="row mx-auto mt-md-3">
+        <div class="card-deck w-100 mx-auto">
+          <div class="card">
+            <div class="card-header text-uppercase">day 9</div>
+            <div class="card-body row my-auto">
+              <div class="col-md-2 col-3"><span class = "date">3</span><br />jan</div>
+              <div class="col-md-7 col-6 my-auto">
+                <h5 class="card-text my-auto">
+                  full CMS Project
+                </h5>
+              </div>
+              <div class="col-md-3 col-3 my-auto">
+                <button
+                  class="btn"
+                  onclick="showTable(this)"
+                >
+                  <i class="fas fa-arrow-circle-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="showTable mx-auto my-auto">
+              <div class="table-responsive mx-auto my-auto">
+          
+              </div>
+            </div>
+          </div>
+
+          <div class="card invisible">
+            <div class="card-header text-uppercase">day 6</div>
+            <div class="card-body row my-auto">
+              <div class="col-md-2 col-3"><span class = "date">31</span><br />dec</div>
+              <div class="col-md-7 col-6 my-auto">
+                <h5 class="card-text my-auto">
+                  Server Intro Node js
+                  
+                </h5>
+              </div>
+              <div class="col-md-3 col-3 my-auto">
+                <button
+                  class="btn"
+                  onclick="showTable(this)"
+                >
+                  <i class="fas fa-arrow-circle-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="showTable mx-auto my-auto">
+              <div class="table-responsive mx-auto my-auto">
+                <table class="table table-bordered  mx-auto my-auto">
+                  <thead class="thead">
+                    <tr>
+                      <th>sl.no</th>
+                      <th>software</th>
+                      <th>link</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>vs code installation</td>
+                      <td>
+                        link for the installation of the vscode is provided and
+                        lorem
+                      </td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <th>#</th>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          
+
+
+        </div>
+
+      
+      </div>
+
+
+
+      
+      <h4 class="text-capitalize mt-md-5 mb-md-5">---> contact mentors</h4>
 
       <div class="mentors">
 
@@ -504,7 +552,8 @@
             <div class="swiper-slide">
               <div class="name"><i class="fas fa-signature"></i> KARTHIK SUNIL</div>
               <div class="tuition"><i class="fab fa-servicestack"></i> introduction</div>
-              <div class="contact-mentor"><span><i class="fab fa-linkedin-in"></i></span><span><i class="fas fa-mobile-alt"></i></span></div>
+              <!-- <div><i class="far fa-id-card"></i> contact: </div> -->
+              <span class="contact-mentor"><span><a href=""><i class="fab fa-linkedin-in"></i></a></span><span><a href=""><i class="fas fa-mobile-alt"></i></a></span></span>
             </div>
             <div class="swiper-slide">Slide 2</div>
             <div class="swiper-slide">Slide 3</div>
@@ -519,7 +568,7 @@
         </div>
       </div>
     
-      <h4 class="heading-font text-capitalize mt-md-5 mb-md-5">---> Additional resources</h4>
+      <h4 class="text-capitalize mt-md-5 mb-md-5">---> Additional resources</h4>
     
 
 
@@ -569,8 +618,20 @@
     <script>
  
  var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 4,
+        // slidesPerView: 4,
         spaceBetween: 30,
+        breakpoints: {
+        // when window width is <= 499px
+        499: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 50
+        },
+        // when window width is <= 999px
+        999: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 50
+        }
+    }
         // pagination: {
         //   el: ".swiper-pagination",
         //   clickable: true,
