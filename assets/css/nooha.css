@@ -43,9 +43,14 @@
 
 }
 
-  .additional-heading h5{
+  .additional-heading{
       color:var(--clr);
   }
+
+.play-with-code code{
+    color:var(--clr);
+    background-color:var(--bgsub);
+}
   
   
 .content-font{
