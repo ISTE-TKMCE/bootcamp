@@ -19,6 +19,15 @@ function showTable(clickBtn){
     
 }
 
+function codeblock(clickBtn){
+    const dis = clickBtn.parentElement.parentElement.querySelector(".code-block");
+    if(dis.style.display != 'none'){
+        dis.style.display = "none";
+    }else{
+        dis.style.display = "block";
+    }
+}
+
 
 
 

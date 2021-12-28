@@ -47,9 +47,16 @@
       color:var(--clr);
   }
 
-.play-with-code code{
+/* .play-with-code code{
     color:var(--clr);
     background-color:var(--bgsub);
+} */
+
+.code-block{
+    display:none;
+}
+pre{
+    color:var(--primary)
 }
   
   
@@ -68,7 +75,7 @@ a{
 .webed{
     color:var(--clr);
 }
-.btn{
+.btn, .btn-sm{
     border:1px solid var(--clr);
     color:var(--clr);
     font-weight:600;
@@ -77,6 +84,10 @@ a{
 }
 i{
     font-size:27px;
+}
+
+.btn-sm i{
+font-size:24px;
 }
 
 #contents{
@@ -94,7 +105,7 @@ h3,h4,h1,h2,h5,h6{
     
 }
 
-.btn:hover{
+.btn:hover, .btn:hover{
     color:var(--bgclr);
     background-color:var(--clr);
 
