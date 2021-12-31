@@ -29,6 +29,55 @@
  
     <title>WEBED ISTE</title>
   </head>
+  <script>
+    // Set the date we're counting down to
+var countDownDate = new Date("Dec 31, 2021 18:30:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = `<div id = "timer" class = "mx-auto">
+  <span>${days}<p>day</p></span><span>${hours}<p>hrs</p></span><span>${minutes}<p>mins</p></span><span>${seconds}<p>sec</p></span>
+  
+  </div>`;
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+
+
+const stacker = document.getElementById('stack-img-box').querySelectorAll('img');
+const stackAnimation = () =>{
+    console.log(stacker)
+    for (let i in stacker){
+console.log(i)
+
+        i.addEventListener('mouseover',() =>{
+            alert("inner")
+            x.style.display = "none";
+        })
+    }
+}
+
+
+  </script>
   <body>
 
     
@@ -478,6 +527,13 @@
                         <a href="https://github.com/webdesign4alll/webed-cms-static.git">Fork</a>
                       </td>
                     </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>recorded session</td>
+                      <td>
+                        <a href="https://drive.google.com/file/d/1tC42Xp7Y3-jPNaBvPDOotfQ-g8hxdddo/view?usp=sharing">Click here</a>
+                      </td>
+                    </tr>
 
                     
  
@@ -512,7 +568,38 @@
 
             <div class="showTable mx-auto my-auto">
               <div class="table-responsive mx-auto my-auto">
-   
+                <table class="table table-bordered  mx-auto my-auto">
+                  <thead class="thead">
+                    <tr>
+                      <th>sl.no</th>
+                      <th>software</th>
+                      <th>link</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>node installation link</td>
+                      <td>
+                        <a href="https://nodejs.org/en/">Install now</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>node installation video</td>
+                      <td>
+                        <a href="https://drive.google.com/file/d/1s7-aMdlQgacuaHk_hqPow6ELqEYV36rk/view">Watch now</a>
+                      </td>
+                    </tr>
+                  
+
+                    
+ 
+                  
+               
+                  </tbody>
+               
+                </table>
               </div>
             </div>
           </div>
@@ -980,7 +1067,7 @@
     <script>
       AOS.init();
     </script>
-<script src = "./assets/js/timer.js"></script>
+<!-- <script src = "./assets/js/timer.js"></script> -->
     <script src="./assets/js/script.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
